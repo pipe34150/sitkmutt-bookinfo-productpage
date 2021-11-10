@@ -1,7 +1,7 @@
 services:
   productpage:
     build: .
-    image: ghcr.io/pipe34150/bookinfo-productpage:dev
+    image: ghcr.io/pipe34150/bookinfo-productpage:prd
     ports:
       - "8083:8083"
     environment:
